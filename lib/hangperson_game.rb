@@ -42,8 +42,8 @@ class HangpersonGame
 	@guesses += letter
     else
 	@wrong_guesses += letter
-    end
-    @count += 1
+	@count += 1
+    end 
   end 
 
   def check_win_or_lose
